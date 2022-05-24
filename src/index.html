@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Trello DnD</title>
+</head>
+<body>
+<div class="content">
+  <h4 class="head">Trello DnD</h4>
+  <button id="aet" class="aet">Add example task</button>
+  <div class="container">
+    <div class="column">
+      <div class="head-card">
+        <p class="head_p">todo</p>
+        <p class="head_.">...</p>
+      </div>
+      <div class="cont col1" data-inf="col1"></div>
+      <p class="foo"><button class="btn">+ Add card</button></p>
+    </div>
+    <div class="column">
+      <div class="head-card">
+        <p class="head_p">in progress</p>
+        <p class="head_.">...</p>
+      </div>
+      <div class="cont col2" data-inf="col2"></div>
+      <p class="foo"><button class="btn">+ Add card</button></p>
+    </div>
+    <div class="column">
+      <div class="head-card">
+        <p class="head_p">done</p>
+        <p class="head_.">...</p>
+      </div>
+      <div class="cont col3" data-inf="col3"></div>
+      <p class="foo"><button class="btn">+ Add card</button></p>
+    </div>
+    <form class="form" data-num="">
+      <h4>new task</h4>
+      <input id="h" name="task_head" placeholder="имя задачи" required>
+      <textarea id="t" name="task_cont" cols="30" rows="5" placeholder="содержание задачи" required></textarea>
+      <p class="butt">
+        <button id="writ" type="button">записать</button>
+        <button id="res" type="reset">закрыть</button>
+      </p>
+    </form>
+  </div>
+</div>
+</body>
+</html>

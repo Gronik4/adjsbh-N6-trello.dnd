@@ -1,0 +1,82 @@
+body {margin: 0; padding: 0;}
+* {box-sizing: border-box;}
+.content {
+  width: 100%;
+  text-align: center;
+  background: #e8d98b;
+  color: blue;
+  padding-top:2px;
+}
+.head { margin: 3% auto 1%; }
+.aet {
+  margin: 1% auto;
+  appearance: none;
+  border: 0;
+  border-radius: 5px;
+  background: #94cad6;
+  color: blue;
+}
+.aet:hover { cursor: pointer; border: blue 1px solid;}
+.container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+  .column {
+    width: 31%;
+    height: 100%;
+    position: relative;
+    background: #ebf0f0;
+    border-radius: 8px;
+    margin-bottom: 5px;
+  }
+    .head-card{
+      display: flex;
+      justify-content:space-between;
+      padding: 0 3%;
+      text-transform: uppercase;
+    }
+    .cont{padding-bottom: 30px;}
+    .foo{margin-bottom: 5px; text-align: left; margin-left: 20px;}
+    .btn{
+      appearance: none;
+      border: 0;
+      border-radius: 8px;
+      background: #94cad6;
+      color: blue;
+    }
+    .btn:hover{border: blue solid 1px; cursor: pointer;}
+    .form {
+      display: none;
+      width: 280px;
+      position: absolute;
+      border: 1px solid #000;
+      border-radius: 5px;
+      background: #c3e0e0;
+    }
+      .form h4 {margin: 0; padding: 3px 0;}
+      .form input {width: 200px; margin-bottom: 5px;}
+      .form textarea {margin-bottom: 2px;}
+      .butt {margin: 3px auto 5px;}
+    .task {
+      width: 96%;
+      margin: 3px auto;
+      background: #FFFF;
+      border: 1px solid blue;
+      border-radius: 8px;
+    }
+    .task:hover{cursor: grab; background: rgb(199, 230, 231);}
+      .delT{display: none;}
+    .delT:hover{cursor: pointer;}
+    .task:hover .delT{display: block; font-size: large;}
+      
+      .head_task {
+        margin: 2px;
+        padding: 0 5px;
+        display: flex;
+        justify-content:space-between;
+      }
+       .head_task h4 {margin: 0; padding: 0;}
+       .head_task p {margin: 0; padding: 0;}
+     .task p {margin: 0; padding: 0;}
